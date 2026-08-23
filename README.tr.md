@@ -82,6 +82,37 @@ Sharp, Linux, Nginx ve PM2.
 - Sepet ve ödeme henüz tamamlanmış özellik olarak sunulmamaktadır.
 - Canlı yayın; analitik kimlikleri, alan adı/altyapı erişimi ve yasal metin incelemesine bağlıdır.
 
+
+## Arayüz
+
+### Editoryal yönetim paneli
+
+![Yönetim paneli genel bakış](docs/screenshots/admin-overview.png)
+
+Yönetim girişi tablolar yerine işler etrafında kurgulanmıştır: kitap ekle, yazı
+yayınla, etkinlik duyur, satış noktalarını yönet. Alttaki sayaçlar canlı
+kataloğu raporlar — ekran alındığında 51 kitap, 44 yazar ve çizer, 24 satış
+noktası, 490 medya varlığı.
+
+### Kitap düzenleyici
+
+![Kitap düzenleyici](docs/screenshots/book-editor.png)
+
+Tek bir kayıt; katalog verisini (ISBN, sayfa sayısı, ebat, kapak özelliği, fiyat,
+yayın tarihi), zengin metin tanıtımını, rolleriyle birlikte katkı verenleri,
+kategorileri, künyeyi ve koleksiyon üyeliğini bir arada tutar. Kapak yükleyici
+beklenen ölçüyü söyler ve listelerde kullanılacak kırpma alanını editöre seçtirir.
+
+### Sayfa bazlı SEO
+
+![Sayfa bazlı SEO](docs/screenshots/per-page-seo.png)
+
+SEO sonradan eklenen bir şey değil, birinci sınıf bir düzenleme yüzeyidir. Her
+sabit sayfanın kendi başlığı, odak anahtar kelimesi ve açıklaması vardır; arama
+motorlarının gerçekten uyguladığı sınırlara karşı canlı karakter sayacı ve
+oluşacak arama sonucunun önizlemesi gösterilir. Boş bırakılan alanlar boş etiket
+yayınlamak yerine site varsayılanına düşer.
+
 ## Sonuç
 
 Planlanan site ve panel özelliklerinin büyük kısmı tamamlandı. Kalan işler

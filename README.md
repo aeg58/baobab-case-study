@@ -114,6 +114,38 @@ boundaries.
 - Commerce-ready fields exist in the model, but cart and payment flows are not presented as completed work.
 - Production launch depends on analytics identifiers, domain/infrastructure access, and legal-content review.
 
+
+## Interface
+
+### Editorial dashboard
+
+![Admin overview](docs/screenshots/admin-overview.png)
+
+The administration entry point is organised around tasks rather than tables:
+add a book, publish an article, announce an event, manage retail points. The
+counters underneath report the live catalogue — 51 books, 44 authors and
+illustrators, 24 retail points and 490 media assets at the time of capture.
+
+### Book editor
+
+![Book editor](docs/screenshots/book-editor.png)
+
+One record combines catalogue metadata (ISBN, page count, physical dimensions,
+cover type, price, publication date), a rich-text description, contributors with
+explicit roles, categories, credits, and collection membership — plus a cover
+uploader that states the expected dimensions and lets the editor choose the crop
+region used in listings.
+
+### Per-page SEO
+
+![Per-page SEO](docs/screenshots/per-page-seo.png)
+
+SEO is a first-class editing surface rather than an afterthought. Every fixed
+page carries its own title, focus keyword and description with live character
+counters against the limits search engines actually apply, and a rendered
+preview of the resulting search result. Empty fields fall back to the site
+defaults instead of shipping blank tags.
+
 ## Outcome
 
 Most planned website and administration capabilities are implemented. The
