@@ -15,7 +15,7 @@ bölümleri ve site ayarları tek sistemden yönetilir.
 
 | Alan | Bilgi |
 |---|---|
-| Durum | İleri geliştirme aşamasında; canlıya hazırlık işleri sürüyor |
+| Durum | Müşteri kendi domaininde test ediyor; halka açık yayın bekleniyor |
 | Rolüm | Ürün, mimari ve geliştirme sürecinin uçtan uca sahipliği |
 | Ürün türü | İki dilli halka açık site ve özel içerik paneli |
 | İçerik modeli | Ayrı TR/EN alanlarına sahip bağlantılı 14 veri modeli |
