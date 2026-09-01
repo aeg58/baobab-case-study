@@ -15,7 +15,7 @@ homepage composition, and site-wide settings.
 
 | Area | Detail |
 |---|---|
-| Status | Advanced development; production launch preparation remains |
+| Status | In client testing on its own domain; public launch pending |
 | Role | End-to-end product, architecture, and development ownership |
 | Product type | Bilingual public website and private content platform |
 | Content model | 14 connected data models with separate TR/EN fields |
